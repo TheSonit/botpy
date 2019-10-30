@@ -3,7 +3,7 @@ import pyowm
 
 token = "936565494:AAEU9RPfCb8Zk_yjvc19mt9iprNZ0qIyMEI"
 
-owm = pyowm.OWM('1fd33055d6176054ef134e72a7e2baca', language ='ru')
+owm = pyowm.OWM('1fd33055d6176054ef134e72a7e2baca', language ='ua')
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['weather'])
 def question(message):
